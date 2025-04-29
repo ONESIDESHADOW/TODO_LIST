@@ -6,7 +6,7 @@ import { TodoDate } from "./TodoDate";
 import {
   getLocalStorageTodoData,
   setLocalStorageTodoData,
-} from "./ToLocalStorage.JSX";
+} from "./ToLocalStorage.jsx";
 
 export const Todo = () => {
   const [task, setTask] = useState(() => getLocalStorageTodoData());
